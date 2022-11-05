@@ -1,0 +1,59 @@
+body{
+  background-color: gray;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: font-family: 'NanumSquare', san-serif;
+  color: blue;
+  letter-spacing: -0.05em;
+  word-spacing: 0.3em;
+}
+
+p.subtitle {font-family: 'Do Hyeon', sans-serif;}
+
+.main-text{
+  font-weight: 200;
+  font-size: 20px;
+  text-align: justify;
+  letter-spacing: 0.1em;
+  word-spacing: 0.2em;
+  line-height: 2.0em;
+  
+}
+.main-wrapper{
+  width:1200px;
+  margin: 0 auto;
+}
+
+.div-pad{
+  padding: 15px 30px 40px 50px;
+}
+
+.div-margin{
+  margin 10px;
+}
+
+.box-a{
+  width:100px;
+  height: 100px;
+  background-color: red;
+  display:inline-block;
+}
+
+.box-b{
+  width:100px;
+  height: 100px;
+  background-color: blue;
+  display:inline-block;
+}
+
+.box-c{
+  width:100px;
+  height: 100px;
+  background-color: green;
+  display:inline-block;
+}

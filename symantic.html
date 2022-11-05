@@ -68,9 +68,47 @@
   <article>
     <h2>당신의 의견을 제출하세요</h2>
     <form action="#" method="POST">
+      <label for="u-name">유저네임</label>
+      <input type="text" id="u-name" name="u-name">
+      <label for="u-pw">패스워드</label>
+      <input type="password" id="u-pw" name="u-pw">
+      <span>의견</span>
       <input type="text" id="opinion" name="opinion">
+      <input type="submit">
+      <button type="reset">취소</button>
+      
     </form>
+
+    
+ <label for="user-movie"> Choose your favorite movie</label>
+     <input list="movies"  id="user-movie" name="movie">
+    <datalist id="movies">
+      <option value="Dune"></option>
+      <option value="Arrival"></option>
+      <option value="Blade Runner 2049"></option>
+    </datalist> 
+
+    <label for="coffe-menu">Choose a menu:</label>
+    <select name="coffe" id="coffee-menu" required>
+      <option value="">--메뉴를 고르세요--</option> 
+      <option value="americano">아메리카노</option>
+      <option value="latte">카페라떼</option>
+      <option value="mocha">카페모카</option>
+      <option value="cola">콜라</option>
+      
+    </select>
+    
+    <article>
+      <p>
+        <strong> Strong</strong>과 <b>b</b>의 차이가 느껴지십니까?
+        혹은, <em>em</em>과
+        <i>i</i>의 차이가 느껴지십니까?
+      </p> 
   </article>
+    <p><iframe src="https://www.google.com/" id="google-home" name="google-home" frameborder="1" width="320" height="240" scrolling="auto" title="구글 웹사이트">프레임이 지원되지 않는 환경입니다.
+<a href="https://www.google.com/">https://www.google.com/</a> 페이지를 방문하여 주세요.</iframe></p>
+
+    
   <article id="featured-posts">
         <article class="featured-post">
         <h2>은사 13 출시임박</h2>
